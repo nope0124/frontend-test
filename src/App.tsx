@@ -70,10 +70,7 @@ const App: React.FC = () => {
           <Routes>
             <Route path="/signup" element={<SignUp />} />
             <Route path="/signin" element={<SignIn />} />
-
-                <Route path="/" element={<Home />} />
-
-
+            <Route path="/" element={<Home />} />
           </Routes>
         </CommonLayout>
       </AuthContext.Provider>
